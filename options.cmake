@@ -72,6 +72,13 @@ option(
 )
 
 option(
+    USE_DISCORD_GAMESDK
+    "Enable Discord GameSDK integration"
+    OFF
+)
+
+
+option(
     USE_VULKAN
     "Enable Vulkan render backend"
     ON

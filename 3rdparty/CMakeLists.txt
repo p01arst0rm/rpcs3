@@ -214,6 +214,8 @@ if (USE_DISCORD_RPC AND (WIN32 OR CMAKE_SYSTEM MATCHES "Linux" OR APPLE))
 	endif()
 endif()
 
+# Discord GameSDK
+add_subdirectory(gameSDK EXCLUDE_FROM_ALL)
 
 # ALSA
 set(ALSA_TARGET 3rdparty_dummy_lib)
